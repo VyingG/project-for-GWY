@@ -1,0 +1,17 @@
+body {
+  background-color: #f5eeea;
+}
+body>.loading_logo {
+  width: 172px;
+  height: 128px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40%;
+}
+body>.loading_copyright {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+}

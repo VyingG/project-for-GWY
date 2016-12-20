@@ -1,0 +1,115 @@
+body {
+  background-color: #efeff4;
+}
+.headnav {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #d6d7dc;
+  position: relative;
+}
+.headnav .navback {
+  display: inline-block;
+  width: 10px;
+  height: 18px;
+  margin-top: 16px;
+  position: absolute;
+  left: 5%;
+}
+.headnav>.tologin {
+  display: block;
+  float: right;
+  line-height: 50px;
+  position: absolute;
+  right: 5%;
+}
+.headnav>.navname {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #ed6f36;
+}
+.itembox {
+  width: 100%;
+  height: 203px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-top: 1px solid #ececf0;
+  border-bottom: 1px solid #ececf0;
+}
+.itembox>.iptline {
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+.iptline>.itemicon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-top: 15px;
+  position: absolute;
+  left: 0;
+}
+.iptline>.itemname {
+  line-height: 50px;
+  margin-left: 30px;
+  display: inline-block;
+}
+.iptline>.putin {
+  font-size: 16px;
+  width: 70%;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+.itembox>.splitline {
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #ececf0;
+}
+.iptline>.chkicon {
+  width: 11px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-top: 15px;
+  position: absolute;
+  left: 0;
+}
+.iptline>.chkbtn {
+  width: 78px;
+  height: 26px;
+  background-color: #ea5404;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  float: right;
+  margin-top: 12px;
+}
+.iptline>.chkputin {
+  width: 30%;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.subbtn {
+  width: 90%;
+  height: 45px;
+  background-color: #c7c7c7;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  display: block;
+}

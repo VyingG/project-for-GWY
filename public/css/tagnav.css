@@ -1,0 +1,41 @@
+.tagnav {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #d6d7dc;
+}
+.tagnav>.navtab {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 50px;
+  position: relative;
+}
+.navtab>.tgnavpic {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.navtab>.addcontent {
+  width: 44px;
+  height: 38px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+.navtab>.tgnavname {
+  display: block;
+  width: 100%;
+  color: #b4b4b4;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  top: 56%;
+}
+.navtab>.active {
+  color: #ea5404;
+}

@@ -1,0 +1,1 @@
+window.onload=function(){new Swiper(".swiper-container",{pagination:".swiper-pagination",slidesPerView:1,paginationClickable:!0,spaceBetween:!1,freeMode:!1,loop:!0,autoplay:2500,autoplayDisableOnInteraction:!1})};

@@ -1,0 +1,155 @@
+body {
+  background-color: #efeff4;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.tagnavinfos {
+  width: 100%;
+  height: 30px;
+  padding: 10px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #d6d7dc;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+.tagnavinfos>.wth244 {
+  width: 244px;
+  margin: 0 auto;
+}
+.tagnavinfos .infostab {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border-top: 1px solid #ea5404;
+  border-bottom: 1px solid #ea5404;
+  color: #ea5404;
+}
+.tagnavinfos .message {
+  border-radius: 5px 0 0 5px;
+  border-left: 1px solid #ea5404;
+}
+.tagnavinfos .notify {
+  border-left: 1px solid #ea5404;
+  border-right: 1px solid #ea5404;
+}
+.tagnavinfos .need {
+  border-radius: 0 5px 5px 0;
+  border-right: 1px solid #ea5404;
+}
+.tagnavinfos .active {
+  background-color: #ea5404;
+  color: #fff;
+}
+.infosbox {
+  width: 90%;
+  padding-bottom: 10px;
+  margin: 0 5%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 2px 2px 10px #888;
+  overflow: hidden;
+  position: relative;
+}
+.infosbox>.title {
+  display: inline-block;
+  width: 90%;
+  padding: 0 5%;
+  height: 39px;
+  border-bottom: 1px solid #d6d7dc;
+  line-height: 39px;
+}
+.infosbox>.content {
+  display: inline-block;
+  width: 90%;
+  height: auto;
+  line-height: 20px;
+  padding: 0 5%;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #646464;
+}
+.msgbox>.msgdate {
+  font-size: 12px;
+  color: #d3d3d3;
+  display: block;
+  float: right;
+  margin-right: 5%;
+}
+.ntfybox>.ntfydate {
+  line-height: 39px;
+  font-size: 12px;
+  color: #d3d3d3;
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+.nedbox>.nedfrom {
+  display: block;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 5%;
+}
+.nedbox>.subtenant {
+  background-color: #15b755;
+}
+.nedbox>.agent {
+  background-color: #0193e6;
+}
+.nedbox>.developer {
+  background-color: #97b715;
+}
+.nedbox>.agency {
+  background-color: #ea5404;
+}
+.nedbox>.operator {
+  background-color: #696969;
+}
+.nedbox>.title {
+  border: none;
+}
+.nedbox>.splitimg {
+  display: block;
+  height: 4px;
+}
+.nedbox>.nedbtn {
+  display: block;
+  width: 80px;
+  height: 24px;
+  background-color: #efeff4;
+  border-radius: 5px;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #646464;
+}
+.nedbox>.neddate {
+  color: #d3d3d3;
+  font-size: 12px;
+  line-height: 26px;
+  position: absolute;
+  bottom: 10px;
+  right: 5%;
+}
+.ntfybox {
+  display: none;
+}
+.nedbox {
+  display: none;
+}
